@@ -1,0 +1,87 @@
+.form-section {
+    background-color: white;
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 1vw 1vw;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section-header > h2 {
+    font-size: 2.2vw;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1vw;
+}
+
+.input-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.2vw;
+}
+
+.input-row > label {
+    padding-left: 0.1vw;
+}
+
+.input-row > input {
+    appearance: none;
+    width: 99%;
+    height: 2vw;
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding-left: 1%;
+    font-size: 1vw;
+}
+
+input-row > input:invalid {
+    border-color: red;
+}
+
+button[type='submit'] {
+    appearance: none;
+    background-color: transparent;
+    font-size: 1vw;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 0.5vw 0.5vw;
+    margin-top: 1vw;
+}
+
+button[type='submit']:hover {
+    background-color: rgba(10, 10, 10, 0.05);
+}
+
+.plus-button,
+.minus-button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 2vw;
+    padding: 0 1vw;
+}
+
+.plus-button:hover,
+.minus-button:hover {
+    border: 1px solid grey;
+}
+
+button {
+    cursor: pointer;
+}
