@@ -13,7 +13,7 @@ function PersonalInfoSection({ isExpanded = false }) {
             <div className="section-header">
                 <h2>Personal Info</h2>
                 <button className={isExpanded ? 'plus-button' : 'minus-button'}>
-                    {isExpanded ? '+' : '-'}
+                    {isExpanded ? '-' : '+'}
                 </button>
             </div>
             {isExpanded && (
