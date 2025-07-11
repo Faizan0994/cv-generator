@@ -10,4 +10,12 @@ function Header({ children }) {
     );
 }
 
-export default Header;
+function Footer({ children }) {
+    return (
+        <footer>
+            <p>{children}</p>
+        </footer>
+    );
+}
+
+export { Header, Footer };
