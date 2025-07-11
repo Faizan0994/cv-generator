@@ -77,11 +77,12 @@ button[type='submit']:hover {
     padding: 0 1vw;
 }
 
-.plus-button:hover,
-.minus-button:hover {
-    border: 1px solid grey;
-}
-
 button {
     cursor: pointer;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
 }
